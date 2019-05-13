@@ -3,8 +3,8 @@
   help: 
   need_reply: 
   auto_retry_time: 
-  answer: 
-  keyboard: 
+  answer: You're Refferal Link 🔥🔥🔥🔥
+  keyboard: My Invites , Refferal Point's ,\n Back 🔙
   aliases: referral👥
 CMD*/
 

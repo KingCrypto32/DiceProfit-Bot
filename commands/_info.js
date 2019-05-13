@@ -17,7 +17,7 @@ Bot Started :May 5, 2019 📆
 
 Type : Investment Bot 🤖
   ANSWER
-  keyboard: 
+  keyboard: Statistics 📊 , Contact 📱, \n Back 🔙
   aliases: info 🗂
 CMD*/
 

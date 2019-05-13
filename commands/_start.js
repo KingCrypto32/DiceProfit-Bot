@@ -34,7 +34,19 @@ Time Based :
 
 PLEASE TYPE /setname TO SET YOU'RE NAME / USERNAME
   ANSWER
-  keyboard: 2x💰 , 3x💰 , 4x💰 , \n SetAddress🛄, My Address, Withdraw💰, \n Info 🗂 , Referral👥
+  keyboard: Info 🗂 , Referral👥, Withdraw💰,\n Invest 💹, SetAddress🛄, My Address
   aliases: 
 CMD*/
+
+let res = Libs.ResourcesLib.userRes("points");
+Libs.ResourcesLib.userRes("points").name // is "BTC"
+function doAttracted(refUser){
+  // access to Bonus Res of refUser
+  let refUserBonus = Libs.ResourcesLib.anotherUserRes("points", refUser.telegramid);
+  refUserBonus.add(15);  // add 15 bonus for friend
+}
+
+Libs.ReferralLib.currentUser.track({
+   doAtractedByUser: doAttracted
+});
 
